@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
 import Footer from '../../components/Footer'
 import { FaSearch } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import Header from '../Components/Header'
 
 function Home() {
   return (

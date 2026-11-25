@@ -12,6 +12,7 @@ import AdminResource from './admin/pages/AdminResource'
 import AdminSettings from './admin/pages/AdminSettings'
 import { useState } from 'react'
 import Preloader from './components/Preloader'
+import PageNotFound from './pages/PageNotFound'
 
 
 
@@ -35,6 +36,7 @@ function App() {
         <Route path='/admin' element={<AdminDashboard/>} />
         <Route path='/admin/resource' element={<AdminResource/>} />
         <Route path='/admin/settings' element={<AdminSettings/>} />
+        <Route path='/*' element={<PageNotFound/>}/>
     
       </Routes>
     </>
